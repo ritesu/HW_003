@@ -3,17 +3,17 @@ int a = int.Parse(Console.ReadLine()?? "0");
 Console.WriteLine("Введите степень");
 int b = int.Parse(Console.ReadLine()?? "0");
 int[] numbers = new int[b];
-int c = a;
-int d = 0;
+for (int i = 0; i < numbers.Length; i++)
 {
-    Console.Write(b + " ");
+    numbers[i] = b;
 }
-Console.WriteLine();
+int c = a;
+
 Console.Write(a + " ");
+
 for(int i = 1; i < numbers.Length; i++)
 {
-    d = c*a;
-    c = d;
+    c = c*a;
     Console.Write(c + " ");
 }
 Console.WriteLine();
