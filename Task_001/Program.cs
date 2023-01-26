@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Введите размер массива");
+﻿Console.WriteLine("Введите колличество чисел для возведения в куб");
 int a = int.Parse(Console.ReadLine()?? "");
 int[] numbers = new int[a];
 for (int i = 0; i < numbers.Length; i++)
