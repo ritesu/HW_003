@@ -11,6 +11,7 @@ foreach (int i in numbers)
     Console.Write(i + " ");
 }
 Console.WriteLine();
+Console.WriteLine("Кубы всех чисел равны");
 for (int i = 0; i < numbers.Length; i++)
 {
     int c = numbers[i]*numbers[i]*numbers[i];
